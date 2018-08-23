@@ -5,31 +5,89 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style type="text/css">
 
-			.backgroundImage-01, .backgroundImage-02, .backgroundImage-03, .backgroundImage-04 {
+			body, html {
+				height: 100%;
+				margin: 0;
+				font: 400 15px/1.8 "Lato", sans-serif;
+  				color: #777;
+			}
 
+			h3 {
+				text-align:center;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+				font: 20px "Lato", sans-serif;
+				color: #111;
+			}
+
+			.backgroundImage-01, .backgroundImage-02, .backgroundImage-03, .backgroundImage-04 {
+				position: relative;
+				opacity: 0.65;
 				background-attachment: fixed;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+  				background-size: cover;
 
 			}
 		
 			.backgroundImage-01 {
 				background-image: url("resources/images/massage-back.jpg");
-				min-height: 200px;
+				min-height: 100%;
 			}	
 
 			.backgroundImage-02 {
 				background-image: url("resources/images/massage-forehead.jpg");
-				min-height: 200px;
+				min-height: 300px;
 			}	
 
 			.backgroundImage-03 {
 				background-image: url("resources/images/massage-shoulders.jpg");
-				min-height: 200px;
+				min-height: 300px;
 			}	
 
 			.backgroundImage-04 {
 				background-image: url("resources/images/massage-oldguy.jpg");
-				min-height: 200px;
+				min-height: 300px;
 			}	
+
+			.imageText {
+				position: absolute;
+				left: 0;
+				top: 50%;
+				width: 100%;
+				text-align: center;
+				color: #000;
+			}
+
+			.imageText div.imageTextFrame {
+				display: inline-block;
+				background-color: #111;
+				width: 60%;
+				opacity: 0.90;
+				color: #fff;
+				padding: 18px;
+	/*			font-size: 25px;
+				letter-spacing: 10px;*/
+			}
+
+			.aboutMe {
+				color: #777;
+				background-color:white;
+				text-align:center;
+				padding:50px 80px;
+				text-align: justify;
+			}
+
+			.services {
+				color: #777;
+				background-color:white;
+				text-align:center;
+				padding:50px 80px;
+				text-align: justify;
+			}
+
+
 
 		</style>
 
@@ -37,51 +95,67 @@
 	</head>
 
 	<body>
-		<h1>B Body Work</h1>
-		<p>New Home for B's Massage Webpage</p>
-
-
 		<div class="backgroundImage-01">
-		  <div class="">
-		    <span class="">TEXT</span>
+		  <div class="imageText">
+		    <div class="imageTextFrame">
+
+			 	<h1>B's Bodywork</h1>
+			  	<p>
+			    	Phone: (123) 123-1234<br>
+			    	E-Mail: B@BBody.works
+			  	</p>
+
+		    </div>
 		  </div>
 		</div>
 
 
-		<div>
-		  <h3>Info Section 1</h3>
-		  <p>Paragraph info 1</p>
+		<div class="aboutMe">
+			<h3>Info Section 1 : About Me</h3>
+			<p>
+				What gets me going now is testing the market for carnival rides for farmers. Have some experience working on hula hoops worldwide. 
+			</p>
+			<p>
+				A real dynamo when it comes to testing the market for yard waste in Los Angeles, CA. Earned praised for my work selling wooden tops in Prescott, AZ. Spent 2002-2009 marketing human hair for the underprivileged. Spent 2001-2006 selling plush toys for no pay. 
+			</p>
 		</div>
 
 
 		<div class="backgroundImage-02">
-		  <div class="">
-		    <span class="">TEXT</span>
+		  <div class="imageText">
+		    <span class="imageTextFrame">
+		    	TEXT 2
+		    </span>
 		  </div>
 		</div>
 
 
-		<div>
-		  <h3>Info Section 2</h3>
-		  <p>Paragraph info 2</p>
+		<div class="services">
+			<h3>Info Section 2 : Services</h3>
+			<ul>
+				<li>Service 01</li>
+				<li>Service 02</li>
+				<li>Service 03</li>
+				<li>Service 04</li>
+			</ul>
 		</div>
 
 		<div class="backgroundImage-03">
-		  <div class="">
-		    <span class="">TEXT</span>
+		  <div class="imageText">
+		    <span class="imageTextFrame">TEXT 3</span>
 		  </div>
 		</div>
 
 
 		<div>
-		  <h3>Info Section 3</h3>
+		  <h3>Info Section 3 : Something</h3>
 		  <p>Paragraph info 3</p>
 		</div>
 
 
 		<div class="backgroundImage-04">
-		  <div class="">
-		    <span class="">TEXT</span>
+		  <div class="imageText">
+		    <span class="imageTextFrame">TEXT 4</span>
 		  </div>
 		</div>		
 
