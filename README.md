@@ -3,4 +3,4 @@
 
 https://aws.amazon.com/documentation/workmail/
 
-https://s3.console.aws.amazon.com
+https://console.aws.amazon.com
